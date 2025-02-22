@@ -1,0 +1,77 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+config/config.env
+
+# Build files
+/client/build
+/client/dist
+/build
+/dist
+
+# Debug logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional cache directories
+.npm/
+.eslintcache
+.node_repl_history
+.yarn-integrity
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+Desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# AWS credentials
+credentials.csv
+aws_credentials.json
+
+# MongoDB data
+/data
+
+# Uploaded files/images (if storing locally for dev)
+/uploads
+/public/uploads
+/client/public/uploads
+
+# Package lock files (optional - some teams commit these, others don't)
+# package-lock.json
+# yarn.lock
+
+# React env files
+/client/.env
+/client/.env.local
+/client/.env.development
+/client/.env.test
+/client/.env.production
