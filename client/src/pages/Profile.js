@@ -4,7 +4,7 @@ import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
 import PostItem from '../components/PostItem';
-import { FaUserEdit, FaHeart } from 'react-icons/fa';
+import { FaUserEdit } from 'react-icons/fa';
 
 const Profile = () => {
   const { id } = useParams();

@@ -4,7 +4,7 @@ import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
 import PostItem from '../components/PostItem';
-import { FaMapMarkerAlt, FaGlobe, FaPhone } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const RestaurantDetail = () => {
   const { id } = useParams();
